@@ -88,11 +88,11 @@ Please note that root access is required.
  ```
 **Getting OneShot**
  ```
- git clone --depth 1 https://github.com/drygdryg/OneShot OneShot
+ git clone https://github.com/knight0020/oneshot
  ```
 #### Running
  ```
- sudo python OneShot/oneshot.py -i wlan0 --iface-down -K
+ sudo python oneshot/oneshot.py -i wlan0 --iface-down -K
  ```
 
 # Usage
@@ -152,3 +152,4 @@ Launch online WPS bruteforce with the specified first half of the PIN:
 * `rofl0r` for initial implementation;
 * `Monohrom` for testing, help in catching bugs, some ideas;
 * `Wiire` for developing Pixiewps.
+* `drygdryg` for developing OneShot.
