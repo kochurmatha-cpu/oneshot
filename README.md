@@ -16,19 +16,10 @@
 ## [Termux](https://termux.com/)
 Please note that root access is required.  
 
-#### Using installer
- ```
- curl -sSf https://raw.githubusercontent.com/drygdryg/OneShot_Termux_installer/master/installer.sh | bash
- ```
-#### Manually
+#### One shot to install OneShot
 **Installing requirements**
  ```
- pkg install -y root-repo
- pkg install -y git tsu python wpa-supplicant pixiewps iw openssl
- ```
-**Getting OneShot**
- ```
- git clone https://github.com/kochurmatha-cpu/onesho
+pkg update -y && pkg upgrade -y && pkg install -y root-repo && pkg update -y && pkg install -y git python tsu wpa-supplicant pixiewps iw openssl && rm -rf oneshot && git clone --quiet --depth 1 https://github.com/kochurmatha-cpu/oneshot && cd oneshot && pip install wcwidth
  ```
 #### Running
  ```
