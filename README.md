@@ -28,7 +28,7 @@ Please note that root access is required.
  ```
 **Getting OneShot**
  ```
- git clone https://github.com/knight0020/oneshot
+ git clone https://github.com/kochurmatha-cpu/onesho
  ```
 #### Running
  ```
